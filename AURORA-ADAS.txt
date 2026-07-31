@@ -1,0 +1,36 @@
+AURORA-ADAS/
+├── README.md
+├── docs/
+│   ├── architecture.pdf
+│   ├── diagrams/
+│   │   └── aurora_architecture.svg
+│   └── whitepaper/
+│       └── aurora_adas_whitepaper.md
+├── perception/
+│   ├── dronet_perception/
+│   │   ├── CMakeLists.txt
+│   │   ├── package.xml
+│   │   ├── msg/DronetCommand.msg
+│   │   ├── include/dronet_perception/inference_engine.hpp
+│   │   ├── src/dronet_node.cpp
+│   │   └── src/inference_engine.cpp
+│   ├── depth_estimator/
+│   └── semantic_segmentation/
+├── estimation/
+│   ├── vio_frontend/
+│   ├── fusion_ekf/
+│   └── slam_backend_gtsam/
+├── mapping/
+│   ├── local_mapper/
+│   └── global_mapper/
+├── planning/
+│   ├── global_planner/
+│   └── local_planner/
+├── control/
+│   └── px4_interface/
+├── safety/
+│   ├── safety_monitor/
+│   └── rule_engine/
+└── launch/
+    ├── aurora.launch.py
+    └── dronet.launch.py
