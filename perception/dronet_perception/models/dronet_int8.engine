@@ -1,0 +1,2 @@
+config.set_flag(trt.BuilderFlag.INT8)
+config.int8_calibrator = ImageCalibrator("calibration_images/")

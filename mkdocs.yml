@@ -1,0 +1,114 @@
+site_name: AURORA-ADAS
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - System Architecture: docs/aurora_adas_system_architecture.md
+  - Perception: docs/perception.md
+  - World Model: docs/world_model.md
+  - Mapping: docs/mapping.md
+  - Planning: docs/planning.md
+  - Safety: docs/safety.md
+  - Simulation: docs/simulation.md
+
+markdown_extensions:
+  - toc
+  - admonition
+  - codehilite
+
+
+site_name: AURORA-ADAS
+site_description: Modular Autonomy Architecture for Aerial Robots
+site_author: Emmanuel Musvaire
+repo_url: https://github.com/em100/AURORA-ADAS
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: teal
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+
+nav:
+  - Home: index.md
+  - System Architecture:
+      - Overview: architecture/overview.md
+      - Data Flow: architecture/data_flow.md
+      - Subsystems: architecture/subsystems.md
+  - Perception:
+      - DroNet: perception/dronet.md
+      - Depth Estimator: perception/depth.md
+      - Semantic Segmentation: perception/semseg.md
+      - ViT Encoder: perception/vit.md
+  - Estimation:
+      - IMU: estimation/imu.md
+      - VIO: estimation/vio.md
+      - SLAM: estimation/slam.md
+      - EKF Fusion: estimation/ekf.md
+  - World Model:
+      - Latent Encoder: world_model/encoder.md
+      - Latent Dynamics: world_model/dynamics.md
+      - Free-Space: world_model/free_space.md
+      - Risk Prediction: world_model/risk.md
+  - Mapping:
+      - Local Grid: mapping/local_grid.md
+      - Global Voxel Map: mapping/global_voxel.md
+      - Semantic Fusion: mapping/semantic_fusion.md
+  - Planning:
+      - Global Planner: planning/global.md
+      - Local MPC: planning/mpc.md
+      - Bayesian RL Prior: planning/rl_prior.md
+  - Safety:
+      - Risk Fusion: safety/risk_fusion.md
+      - Rule Engine: safety/rule_engine.md
+      - Emergency Override: safety/emergency.md
+  - Control:
+      - PX4 Controller: control/px4_controller.md
+      - MAVLink Offboard: control/mavlink.md
+      - Setpoint Manager: control/setpoints.md
+  - Simulation:
+      - AirSim: simulation/airsim.md
+      - PX4 SITL: simulation/sitl.md
+      - Gazebo: simulation/gazebo.md
+  - Deployment:
+      - Jetson: deployment/jetson.md
+      - CI/CD: deployment/cicd.md
+  - Developer Guide:
+      - Coding Standards: dev/coding.md
+      - Directory Structure: dev/structure.md
+      - Launch Files: dev/launch.md
+      - Testing: dev/testing.md
+  - API Reference:
+      - ROS2 Messages: api/messages.md
+      - Services: api/services.md
+      - Parameters: api/parameters.md
+      - Node Interfaces: api/nodes.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - footnotes
+  - tables
+  - abbr
+  - attr_list
+  - def_list
+  - md_in_html
+
+plugins:
+  - search
+  - mkdocstrings
+  - git-revision-date-localized
+
