@@ -1,0 +1,63 @@
+AUROADAS/
+│
+├── CMakeLists.txt
+├── package.xml
+├── README.md
+│
+├── src/
+│   ├── sensors/
+│   │   ├── camera_driver.cpp
+│   │   ├── imu_driver.cpp
+│   │   ├── gps_driver.cpp
+│   │   └── odometry_driver.cpp
+│   │
+│   ├── vision/
+│   │   ├── visual_frontend.cpp
+│   │   ├── feature_extractor.cpp
+│   │   └── feature_tracker.cpp
+│   │
+│   ├── fusion/
+│   │   ├── imu_preintegration.cpp
+│   │   ├── gps_factor.cpp
+│   │   ├── odometry_factor.cpp
+│   │   ├── visual_factor.cpp
+│   │   └── fusion_graph.cpp
+│   │
+│   ├── mapping/
+│   │   ├── mapper.cpp
+│   │   ├── loop_closure.cpp
+│   │   └── pose_graph.cpp
+│   │
+│   ├── perception/
+│   │   ├── detector.cpp
+│   │   ├── tracker.cpp
+│   │   └── confidence.cpp
+│   │
+│   └── utils/
+│       ├── logging.cpp
+│       ├── config.cpp
+│       └── math_utils.cpp
+│
+├── include/
+│   └── auroadas/
+│       ├── camera_driver.hpp
+│       ├── imu_preintegration.hpp
+│       ├── fusion_graph.hpp
+│       ├── mapper.hpp
+│       ├── detector.hpp
+│       └── tracker.hpp
+│
+├── launch/
+│   └── system.launch.py
+│
+├── config/
+│   ├── camera.yaml
+│   ├── imu.yaml
+│   ├── gps.yaml
+│   └── system.yaml
+│
+└── docs/
+    ├── architecture.md
+    ├── math.md
+    ├── testing.md
+    └── performance.md

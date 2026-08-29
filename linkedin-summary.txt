@@ -1,0 +1,24 @@
+Headline:
+AI/ML Engineer | Robotics Perception | Autonomous Systems | UAV & ADAS | Humanoid Robotics
+
+About:
+I’m an AI/ML Engineer and Robotics Perception Researcher focused on building autonomous systems that can safely perceive, navigate, and interact with complex environments. My work spans UAV “see and avoid” navigation in GNSS-denied airspace, multi-sensor ADAS perception, hybrid planning + reinforcement learning for urban autonomy, and assistive humanoid robots for healthcare and group homes.
+
+I created MUSVTECH SYSTEMS, a multi-division ecosystem that includes:
+• AUROMUS Autonomy Suite (SLAM, ADAS, UAV autonomy, perception)
+• MUSVTECH Humanoids (assistive humanoid robots)
+• AUROMUSIC AI (multimodal AI artist generation)
+
+Key areas:
+• UAV autonomy in GPS/GNSS-denied environments
+• Vision transformers and deep learning for perception
+• Multi-sensor fusion (camera, radar, IMU)
+• Hybrid planning and reinforcement learning
+• Humanoid robotics and human-centered AI
+• Multimodal NLP and emotion trajectory modeling
+
+Selected Publications:
+• Deep Learning Image Based Object Detection for UAV “See and Avoid” Navigation in GPS Denied Environments
+• A Lightweight Vision Transformer for Robust UAV Object Detection in GNSS Denied Environments
+• AUROADAS: A Real Time Multi Sensor Localization & Perception System for ADAS Applications
+• AUROUAV: A Multi Sensor Autonomy Architecture for Aerial Robots

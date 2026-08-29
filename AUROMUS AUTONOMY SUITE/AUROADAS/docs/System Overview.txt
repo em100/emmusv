@@ -1,0 +1,46 @@
+🧭 2. CTO‑Ready One‑Page System Overview
+AUROADAS — Executive Summary
+AUROADAS is a modular, real‑time ADAS perception and localization system built on ROS2 and C++17. It fuses camera, IMU, GPS, wheel odometry, and LiDAR using a factor‑graph backend to produce stable vehicle pose estimates, local maps, obstacle detections, and tracked objects.
+
+Key Capabilities
+Multi‑sensor fusion (IMU, GPS, odometry, visual)
+
+Real‑time perception (detection + tracking)
+
+Local mapping + loop closure
+
+Modular ROS2 architecture
+
+Automotive‑grade reliability
+
+Performance
+30–60 Hz pipeline
+
+< 30 ms latency
+
+< 1% drift
+
+Robust under sensor loss
+
+Architecture
+Sensors → Vision → Fusion → Mapping → Perception → Visualization
+
+GTSAM‑style factor graph backend
+
+Clean separation of modules for extensibility
+
+Use Cases
+ADAS prototyping
+
+Autonomous research
+
+Simulation‑based development
+
+Robotics perception pipelines
+
+Integration
+CARLA / LGSVL simulation
+
+ROS2 ecosystem
+
+RViz visualization

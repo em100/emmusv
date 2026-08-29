@@ -1,0 +1,12 @@
+gps:
+  frame_id: "gps_link"
+  rate_hz: 5
+
+  noise:
+    position_std: 1.5
+    altitude_std: 2.0
+
+  reference_origin:
+    latitude: 37.7749
+    longitude: -122.4194
+    altitude: 10.0

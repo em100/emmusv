@@ -1,0 +1,2 @@
+float32 steering
+float32 collision_prob

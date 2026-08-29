@@ -1,0 +1,22 @@
+camera:
+  frame_id: "camera_front"
+  width: 1280
+  height: 720
+  fps: 30
+
+  intrinsics:
+    fx: 720.0
+    fy: 720.0
+    cx: 640.0
+    cy: 360.0
+
+  distortion:
+    model: "radial-tangential"
+    k1: 0.01
+    k2: -0.02
+    p1: 0.0001
+    p2: 0.0001
+
+  extrinsics:
+    translation: [0.5, 0.0, 1.2]     # front bumper mount
+    rotation_rpy: [0.0, 0.0, 0.0]    # roll, pitch, yaw

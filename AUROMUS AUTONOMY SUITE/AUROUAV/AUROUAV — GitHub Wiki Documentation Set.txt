@@ -1,0 +1,240 @@
+🟦 AUROUAV — GitHub Wiki Documentation Set
+Below is a complete GitHub Wiki structure, including page titles, navigation, and content outlines.
+
+Create these pages under:
+
+
+wiki/
+Wiki Home Page — “AUROUAV Documentation”
+Welcome
+AUROUAV is a modular autonomy stack for UAVs integrating perception, estimation, world‑modeling, mapping, planning, safety, and PX4 control.
+
+Navigation
+System Architecture
+
+Perception
+
+Estimation
+
+World Model
+
+Mapping
+
+Planning
+
+Safety
+
+Control
+
+Simulation
+
+Jetson Deployment
+
+CI/CD
+
+AirSim Scenarios
+
+Developer Guide
+
+API Reference
+
+1. System Architecture
+Overview
+Full autonomy stack
+
+Data‑flow diagram
+
+Subsystem responsibilities
+
+Topics
+Perception pipeline
+
+Estimation pipeline
+
+World‑model pipeline
+
+Mapping pipeline
+
+Planning pipeline
+
+Safety pipeline
+
+Control pipeline
+
+2. Perception
+Components
+DroNet
+
+Depth Estimator
+
+Semantic Segmentation
+
+ViT Encoder
+
+Topics
+TensorRT FP16/INT8
+
+Model conversion
+
+ROS2 nodes
+
+RViz visualization
+
+3. Estimation
+Components
+IMU
+
+VIO
+
+SLAM
+
+EKF
+
+Topics
+Sensor fusion
+
+Pose graph optimization
+
+ROS2 topics
+
+4. World Model
+Components
+ViT encoder
+
+Latent dynamics
+
+Free‑space predictor
+
+Risk predictor
+
+Topics
+Predictive autonomy
+
+TorchScript export
+
+ROS2 integration
+
+5. Mapping
+Components
+Local occupancy grid
+
+Global voxel map
+
+Semantic fusion
+
+Topics
+Map update cycles
+
+Memory optimization
+
+ROS2 topics
+
+6. Planning
+Components
+Global A/D
+
+Local MPC
+
+Bayesian RL prior
+
+Topics
+Trajectory generation
+
+Collision avoidance
+
+ROS2 interfaces
+
+7. Safety
+Components
+Risk fusion
+
+Rule engine
+
+Safety modes
+
+Emergency override
+
+Topics
+Safety thresholds
+
+Integration with DroNet
+
+Integration with world‑model
+
+8. Control
+Components
+PX4 controller
+
+MAVLink offboard
+
+Setpoint manager
+
+Topics
+Offboard mode
+
+Setpoint streaming
+
+PX4 parameters
+
+9. Simulation
+Components
+AirSim
+
+PX4 SITL
+
+Gazebo
+
+Topics
+Dataset generation
+
+Scenario scripts
+
+SITL testing
+
+10. Jetson Deployment
+Topics
+JetPack setup
+
+TensorRT optimization
+
+Power modes
+
+Thermal management
+
+11. CI/CD
+Topics
+ROS2 build pipeline
+
+Jetson deployment pipeline
+
+Testing automation
+
+12. AirSim Scenario Generator
+Topics
+Straight
+
+Slalom
+
+Collision
+
+Custom scenarios
+
+13. Developer Guide
+Topics
+Coding standards
+
+Directory structure
+
+Launch files
+
+Testing
+
+14. API Reference
+Topics
+ROS2 messages
+
+Services
+
+Parameters
+
+Node interfaces

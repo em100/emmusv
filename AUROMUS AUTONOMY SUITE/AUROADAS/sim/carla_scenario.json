@@ -1,0 +1,28 @@
+{
+  "scenario": "urban_loop_dynamic",
+  "weather": {
+    "cloudiness": 20.0,
+    "precipitation": 0.0,
+    "sun_altitude_angle": 45.0
+  },
+  "ego_vehicle": {
+    "model": "vehicle.tesla.model3",
+    "spawn_point": {
+      "x": 10.0,
+      "y": 5.0,
+      "z": 0.5,
+      "yaw": 0.0
+    },
+    "sensors": [
+      { "type": "sensor.camera.rgb", "id": "front_cam", "topic": "/camera/front/image_raw" },
+      { "type": "sensor.other.imu", "id": "imu", "topic": "/imu/data" },
+      { "type": "sensor.other.gnss", "id": "gps", "topic": "/gps/fix" },
+      { "type": "sensor.other.odometry", "id": "odom", "topic": "/vehicle/odometry" }
+    ]
+  },
+  "actors": [
+    { "type": "vehicle.audi.tt", "behavior": "aggressive" },
+    { "type": "vehicle.nissan.patrol", "behavior": "normal" },
+    { "type": "walker.pedestrian.0001", "behavior": "crossing" }
+  ]
+}

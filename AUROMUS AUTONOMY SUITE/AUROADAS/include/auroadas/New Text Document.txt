@@ -1,0 +1,10 @@
+#include "aurora/mapper.hpp"
+
+void Mapper::update(const Pose& pose, const std::vector<MapPoint>& points) {
+    // TODO: transform points into map frame and store
+    map_.insert(map_.end(), points.begin(), points.end());
+}
+
+std::vector<MapPoint> Mapper::getLocalMap() const {
+    return map_;
+}

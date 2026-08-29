@@ -1,0 +1,23 @@
+Emmanuel Musvaire
+AI/ML Engineer • Robotics Perception • Autonomous Systems
+
+Summary
+AI/ML Engineer and Researcher specializing in autonomous systems, robotics perception, multi-sensor fusion, and multimodal AI. Experience across UAV autonomy in GNSS-denied environments, ADAS perception, hybrid planning and reinforcement learning, and assistive humanoid robotics.
+
+Research Focus
+- UAV “See and Avoid” navigation in GPS/GNSS-denied environments
+- Lightweight vision transformers for edge UAV detection
+- Hybrid NLP for temporal emotion trajectory modeling
+- GAN-augmented Kalman filter-based target pursuit
+- Multi-sensor ADAS localization and perception (AUROADAS)
+- Hybrid urban navigation with planning + RL
+- Multi-sensor autonomy architectures for aerial robots (AUROUAV)
+
+Publications
+- Deep Learning Image Based Object Detection for UAV “See and Avoid” Navigation in GPS Denied Environments
+- A Lightweight Vision Transformer for Robust UAV Object Detection in GNSS Denied Environments
+- Hybrid NLP Framework for Temporal Emotion Trajectory Modeling in Clinical and Informal Text
+- Enhanced Drone Navigation and the Integration of GANs in Kalman Filter-Based Target Pursuit
+- AUROADAS: A Real Time Multi Sensor Localization & Perception System for ADAS Applications
+- Hybrid Autonomous Urban Navigation with Integrated Planning and RL-Based Decision-Making
+- AUROUAV: A Multi Sensor Autonomy Architecture for Aerial Robots

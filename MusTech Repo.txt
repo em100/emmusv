@@ -1,0 +1,20 @@
+MUSVTECH SYSTEMS
+│
+├── AUROMUS Autonomy Division
+│     ├── AUROSLAM
+│     ├── AUROADAS
+│     ├── AUROUAV
+│     ├── AUROVISION
+│     └── AUROCORE
+│
+├── MUSVTECH HUMANOIDS Division
+│     ├── CAREBOT‑H1
+│     ├── CAREBOT‑H2
+│     ├── MEDIBOT‑RX
+│     └── HOMEASSIST‑R1
+│
+└── AUROMUSIC Creative AI Division
+      ├── AUROMUSIC Artist Engine
+      ├── AUROMUSIC Voice Studio
+      ├── AUROMUSIC Visual Identity Lab
+      └── AUROMUSIC Content Pipeline

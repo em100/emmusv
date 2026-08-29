@@ -1,0 +1,75 @@
+cmake_minimum_required(VERSION 3.10)
+project(auroadas)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(Eigen3 REQUIRED)
+find_package(OpenCV REQUIRED)
+
+include_directories(
+  include
+  ${EIGEN3_INCLUDE_DIR}
+  ${OpenCV_INCLUDE_DIRS}
+)
+
+add_library(auroadas_sensors
+  src/sensors/camera_driver.cpp
+  src/sensors/imu_driver.cpp
+  src/sensors/gps_driver.cpp
+  src/sensors/odometry_driver.cpp
+)
+
+add_library(auroadas_vision
+  src/vision/visual_frontend.cpp
+  src/vision/feature_extractor.cpp
+  src/vision/feature_tracker.cpp
+)
+
+add_library(auroadas_fusion
+  src/fusion/imu_preintegration.cpp
+  src/fusion/gps_factor.cpp
+  src/fusion/odometry_factor.cpp
+  src/fusion/visual_factor.cpp
+  src/fusion/fusion_graph.cpp
+)
+
+add_library(auroadas_mapping
+  src/mapping/mapper.cpp
+  src/mapping/loop_closure.cpp
+  src/mapping/pose_graph.cpp
+)
+
+add_library(auroadas_perception
+  src/perception/detector.cpp
+  src/perception/tracker.cpp
+  src/perception/confidence.cpp
+)
+
+add_library(auroadas_utils
+  src/utils/logging.cpp
+  src/utils/config.cpp
+  src/utils/math_utils.cpp
+)
+
+add_executable(auroadas_node src/main.cpp)
+target_link_libraries(auroadas_node
+  auroadas_sensors
+  auroadas_vision
+  auroadas_fusion
+  auroadas_mapping
+  auroadas_perception
+  auroadas_utils
+  ${OpenCV_LIBS}
+)
+
+ament_target_dependencies(auroadas_node
+  rclcpp sensor_msgs nav_msgs std_msgs
+)
+
+ament_package()

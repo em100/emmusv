@@ -1,0 +1,10 @@
+4. RESEARCH STATEMENT (OpenAI / Anthropic / DeepMind / NVIDIA)
+Research Statement — Emmanuel Musvaire
+
+My research focuses on building intelligent autonomous systems that combine perception, reasoning, and decision-making in real-world environments. I work at the intersection of robotics perception, multimodal AI, and reinforcement learning, with a strong emphasis on safety, robustness, and human-centered design.
+
+Across UAV autonomy, ADAS systems, and hybrid navigation frameworks, my work explores how deep learning, transformers, and generative models can enhance real-time perception and control. I am particularly interested in multimodal architectures that integrate vision, language, and sensor data, enabling agents to operate reliably under uncertainty.
+
+My current research investigates lightweight transformer models for edge robotics, GAN-enhanced filtering for pursuit tasks, and hybrid planning/RL systems for urban navigation. I aim to develop autonomous systems that are interpretable, safe, and capable of generalizing across diverse environments.
+
+I am motivated by frontier AI challenges: scalable multimodal models, robust autonomy, and alignment in embodied systems. I seek to contribute to research that advances safe, capable AI systems—whether in OpenAI’s embodied intelligence efforts, Anthropic’s safety-driven architectures, DeepMind’s robotics and RL research, or NVIDIA’s accelerated robotics platforms.

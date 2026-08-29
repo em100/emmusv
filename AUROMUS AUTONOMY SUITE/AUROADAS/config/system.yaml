@@ -1,0 +1,22 @@
+system:
+  use_lidar: false
+  use_camera: true
+  use_imu: true
+  use_gps: true
+  use_odometry: true
+
+  fusion:
+    optimize_rate_hz: 20
+    imu_preintegration_dt: 0.01
+
+  mapping:
+    loop_closure_enabled: true
+    loop_closure_threshold_m: 1.0
+
+  perception:
+    detector_enabled: true
+    tracker_enabled: true
+
+  rviz:
+    enable_visualization: true
+    publish_rate_hz: 10

@@ -1,0 +1,32 @@
+Panels:
+  - Class: rviz/Displays
+  - Class: rviz/Views
+
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Name: Map
+      Class: rviz/PointCloud2
+      Enabled: true
+      Topic: /auroadas/map
+      Color Transformer: Intensity
+    - Name: Pose
+      Class: rviz/Pose
+      Enabled: true
+      Topic: /auroadas/pose
+    - Name: Obstacles
+      Class: rviz/MarkerArray
+      Enabled: true
+      Topic: /auroadas/obstacles_viz
+    - Name: Tracks
+      Class: rviz/MarkerArray
+      Enabled: true
+      Topic: /auroadas/tracks_viz
+  Global Options:
+    Fixed Frame: base_link
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 30
+      Pitch: 0.5
+      Yaw: 0.5

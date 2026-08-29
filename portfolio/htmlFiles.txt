@@ -1,0 +1,49 @@
+portfolio/uav-see-and-avoid.html
+portfolio/vit-lite-uav-detection.html
+portfolio/emotion-trajectory-modeling.html
+portfolio/gan-kalman-pursuit.html
+portfolio/auroadas-perception.html
+portfolio/hybrid-urban-navigation.html
+portfolio/aurouav-autonomy.html
+
+
+
+
+Title:  UAV “See and Avoid” Navigation
+        Lightweight Vision Transformer
+  Temporal Emotion Trajectory Modeling
+    GAN-Augmented Kalman Filter Pursuit
+    AUROADAS Perception System
+Hybrid Autonomous Urban Navigation
+AUROUAV Autonomy Architecture
+
+
+
+
+
+🚀 2. Updated Research Projects (aligned to your publications)
+
+Header:
+UAV “See and Avoid” Navigation in GPS‑Denied Environments
+Deep learning object detection + optical flow enabling autonomous UAV navigation without GNSS.
+
+Lightweight Vision Transformer for UAV Detection (ViT‑Lite)
+Optimized transformer architecture for real‑time UAV object detection on edge hardware.
+
+Hybrid NLP Framework for Temporal Emotion Trajectory Modeling
+Multimodal transformer pipeline for modeling emotional progression in clinical and informal text.
+
+GAN‑Augmented Kalman Filter Pursuit
+Generative‑enhanced state estimation improving pursuit stability under noisy sensor conditions.
+
+AUROADAS: Multi‑Sensor Localization & Perception for ADAS
+Camera‑radar fusion, tracking, and localization for next‑generation automotive ADAS systems.
+
+Hybrid Autonomous Urban Navigation (Planning + RL)
+Hybrid autonomy combining classical planning with reinforcement learning for dense urban environments.
+
+AUROUAV: Multi‑Sensor Autonomy Architecture for Aerial Robots
+Unified UAV autonomy stack integrating perception, mapping, obstacle avoidance, and mission planning.
+
+
+

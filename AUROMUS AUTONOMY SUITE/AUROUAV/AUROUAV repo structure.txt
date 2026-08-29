@@ -1,0 +1,112 @@
+AUROUAV/
+├── README.md
+├── docs/
+│   ├── architecture.pdf
+│   ├── diagrams/
+│   │   ├── aurouav_architecture.svg
+│   │   ├── dronet_mpc_flow.svg
+│   │   ├── world_model_pipeline.svg
+│   │   └── stop_vs_turn_behavior.svg
+│   └── whitepaper/
+│       ├── aurouav_whitepaper.md
+│       └── safety_thresholds_derivation.md
+│
+├── perception/
+│   ├── dronet_perception/
+│   │   ├── CMakeLists.txt
+│   │   ├── package.xml
+│   │   ├── msg/
+│   │   │   └── DronetCommand.msg
+│   │   ├── include/dronet_perception/
+│   │   │   ├── inference_engine.hpp
+│   │   │   └── dronet_node.hpp
+│   │   ├── src/
+│   │   │   ├── dronet_node.cpp
+│   │   │   └── inference_engine.cpp
+│   │   ├── models/
+│   │   │   ├── dronet.onnx
+│   │   │   ├── dronet_fp16.engine
+│   │   │   └── dronet_int8.engine
+│   │   └── tensorrt/
+│   │       ├── build_engine.py
+│   │       └── calibrator.py
+│   │
+│   ├── depth_estimator/
+│   │   ├── src/
+│   │   └── include/
+│   └── semantic_segmentation/
+│       ├── src/
+│       └── include/
+│
+├── world_model/
+│   ├── vit_encoder/
+│   │   ├── vit.py
+│   │   └── vit_config.json
+│   ├── latent_dynamics/
+│   │   ├── dynamics_gru.py
+│   │   └── dynamics_transformer.py
+│   ├── predictors/
+│   │   ├── free_space_decoder.py
+│   │   ├── risk_decoder.py
+│   │   └── steering_enhancer.py
+│   ├── world_model_node/
+│   │   ├── CMakeLists.txt
+│   │   ├── package.xml
+│   │   ├── src/world_model_node.cpp
+│   │   └── include/world_model_node.hpp
+│
+├── estimation/
+│   ├── vio_frontend/
+│   │   ├── openvins_interface.cpp
+│   │   └── imu_preintegration.cpp
+│   ├── fusion_ekf/
+│   │   ├── ekf_fusion.cpp
+│   │   └── ekf_params.yaml
+│   └── slam_backend_gtsam/
+│       ├── factor_graph.cpp
+│       ├── loop_closure.cpp
+│       └── slam_node.cpp
+│
+├── mapping/
+│   ├── local_mapper/
+│   │   ├── CMakeLists.txt
+│   │   ├── package.xml
+│   │   ├── src/local_mapper_node.cpp
+│   │   ├── include/local_mapper.hpp
+│   │   └── scripts/local_mapper.py
+│   └── global_mapper/
+│       ├── CMakeLists.txt
+│       ├── package.xml
+│       ├── src/global_mapper_node.cpp
+│       ├── include/global_mapper.hpp
+│       └── scripts/global_mapper.py
+│
+├── planning/
+│   ├── global_planner/
+│   │   ├── a_star.cpp
+│   │   ├── d_star.cpp
+│   │   └── global_planner_node.cpp
+│   └── local_planner/
+│       ├── mpc_controller.cpp
+│       ├── bayesian_rl_prior.cpp
+│       └── local_planner_node.cpp
+│AURORA-ADAS/safety/
+├── safety_monitor/
+│   ├── safety_node.cpp
+│   ├── risk_fusion.cpp
+│   └── safety_modes.hpp
+└── rule_engine/
+|   └── rule_engine.cpp
+├── control/
+│   └── px4_interface/
+│       ├── mavlink_bridge.cpp
+│       ├── px4_controller.cpp
+│       └── px4_params.yaml
+│
+└── launch/
+    ├── aurouav.launch.py
+    ├── dronet.launch.py
+    ├── world_model.launch.py
+    ├── mapping.launch.py
+    ├── planning.launch.py
+    └── safety.launch.py
