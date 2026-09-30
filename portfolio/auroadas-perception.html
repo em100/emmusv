@@ -1,53 +1,114 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Project |  AUROADAS Perception System</title>
+  <title>AUROADAS Perception System | MusvTech Autonomous Systems Lab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../styles.css">
 </head>
-<body>
-  <header>
-    <h1>AUROADAS: Multi‑Sensor Localization & Perception for ADAS</h1>
-    <p>Deep learning image-based object detection for autonomous UAV navigation.</p>
+
+<body class="project-page">
+
+  <!-- HERO BANNER -->
+  <header class="project-hero">
+    <img src="../images/adas.svg" class="project-hero-icon" alt="ADAS Icon">
+    <h1>AUROADAS Perception System</h1>
+    <p>A Modular Multi‑Sensor Fusion & Perception System for Long‑Sighted ADAS → ADS Autonomy</p>
   </header>
 
-  <main>
+  <main class="project-content">
+
+    <!-- OVERVIEW -->
     <section>
       <h2>Overview</h2>
-      <p>This project develops a vision-based “see and avoid” system for UAVs operating in GPS-denied environments, combining deep learning object detection with optical flow and robust navigation strategies.</p>
+      <p>
+        AUROADAS is a modular perception system designed for long‑sighted ADAS → ADS autonomy. 
+        It integrates multi‑sensor fusion, deep learning object detection, and robust localization 
+        to deliver reliable perception in complex urban and highway environments.
+      </p>
     </section>
 
+    <!-- ARCHITECTURE -->
+    <section>
+      <h2>System Architecture</h2>
+      <div class="architecture-box">
+        <ul>
+          <li>Camera + LiDAR + Radar fusion pipeline</li>
+          <li>Transformer‑based object detection</li>
+          <li>Real‑time tracking & motion prediction</li>
+          <li>Long‑range situational awareness</li>
+          <li>ADAS → ADS modular upgrade path</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
     <section>
       <h2>Technical Stack</h2>
-      <ul>
-        <li>Deep learning object detection (CNN/Transformer-based)</li>
-        <li>Optical flow and motion estimation</li>
-        <li>UAV control integration and safety constraints</li>
-      </ul>
+      <div class="tech-grid">
+        <div class="tech-item">Deep Learning (CNN / ViT)</div>
+        <div class="tech-item">Sensor Fusion</div>
+        <div class="tech-item">Optical Flow</div>
+        <div class="tech-item">ADAS Safety Constraints</div>
+        <div class="tech-item">Real‑Time Edge Deployment</div>
+      </div>
     </section>
 
+    <!-- CONTRIBUTIONS -->
     <section>
       <h2>Key Contributions</h2>
-      <ul>
-        <li>Reliable obstacle detection without GNSS.</li>
-        <li>Real-time performance on edge hardware.</li>
-        <li>Improved safety in constrained environments.</li>
+      <ul class="contrib-list">
+        <li>Long‑range perception for ADAS → ADS autonomy.</li>
+        <li>Modular multi‑sensor fusion architecture.</li>
+        <li>Transformer‑based object detection optimized for edge hardware.</li>
+        <li>Robust tracking and motion prediction in dynamic environments.</li>
       </ul>
     </section>
 
+    <!-- PUBLICATION -->
     <section>
       <h2>Publication</h2>
-      <p>Deep Learning Image Based Object Detection for UAV “See and Avoid” Navigation in GPS Denied Environments.</p>
+      <p><strong>AUROADAS: A Modular Multi‑Sensor Fusion and Perception System for Long‑Sighted ADAS→ADS Autonomy</strong></p>
+
+      <div class="pub-links">
+        <a href="https://github.com/em100/AUROMUS-AUTONOMY-SUITE/tree/main/AUROADAS/docs" target="_blank">
+          📄 View Documentation Folder
+        </a>
+
+        <a href="https://github.com/em100/AUROMUS-AUTONOMY-SUITE/blob/main/AUROADAS/docs/AUROADAS_paper.pdf" target="_blank">
+          🔽 Download PDF
+        </a>
+      </div>
     </section>
 
+    <!-- DEMO -->
     <section>
-      <h2>Links</h2>
-      <ul>
-        <li>Code: GitHub repository link</li>
-        <li>Paper: PDF / arXiv link</li>
-        <li>Demo: Video or slides</li>
-      </ul>
+      <h2>Demo</h2>
+      <video controls class="demo-video">
+        <source src="../media/adas-demo.mp4" type="video/mp4">
+      </video>
     </section>
+
+    <!-- CITATION -->
+    <section>
+      <h2>Citation</h2>
+      <pre class="bibtex-block">
+@article{musvaire2026auroadas,
+  title={AUROADAS: A Modular Multi-Sensor Fusion and Perception System for Long-Sighted ADAS→ADS Autonomy},
+  author={Musvaire, Emmanuel},
+  year={2026},
+  journal={MusvTech Autonomous Systems Lab},
+}
+      </pre>
+    </section>
+
+    <!-- BACK LINK -->
+    <section class="back-link">
+      <a href="../index.html">← Back to Portfolio</a>
+    </section>
+
   </main>
+
 </body>
 </html>
