@@ -2,52 +2,92 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Project | AUROUAV Autonomy Architecture</title>
+  <title>AUROUAV Autonomy Architecture | MusvTech Autonomous Systems Lab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../styles.css">
 </head>
-<body>
-  <header>
-    <h1>AUROUAV: Multi‑Sensor Autonomy Architecture for Aerial Robots</h1>
-    <p>Deep learning image-based object detection for autonomous UAV navigation.</p>
+
+<body class="project-page">
+
+  <header class="project-hero">
+    <img src="../images/autonomy.svg" class="project-hero-icon" alt="Autonomy Icon">
+    <h1>AUROUAV Autonomy Architecture</h1>
+    <p>A Multi‑Sensor Autonomy Stack for Aerial Robots</p>
   </header>
 
-  <main>
+  <main class="project-content">
+
     <section>
       <h2>Overview</h2>
-      <p>This project develops a vision-based “see and avoid” system for UAVs operating in GPS-denied environments, combining deep learning object detection with optical flow and robust navigation strategies.</p>
+      <p>
+        AUROUAV is a unified autonomy architecture integrating perception, mapping, obstacle avoidance, 
+        and mission planning for UAVs operating in dynamic and GPS‑denied environments.
+      </p>
+    </section>
+
+    <section>
+      <h2>System Architecture</h2>
+      <div class="architecture-box">
+        <ul>
+          <li>Stereo vision + IMU + VIO fusion</li>
+          <li>SLAM‑based mapping and localization</li>
+          <li>Deep learning object detection</li>
+          <li>Adaptive obstacle avoidance</li>
+          <li>Mission‑level planning and control</li>
+        </ul>
+      </div>
     </section>
 
     <section>
       <h2>Technical Stack</h2>
-      <ul>
-        <li>Deep learning object detection (CNN/Transformer-based)</li>
-        <li>Optical flow and motion estimation</li>
-        <li>UAV control integration and safety constraints</li>
-      </ul>
+      <div class="tech-grid">
+        <div class="tech-item">SLAM</div>
+        <div class="tech-item">VIO</div>
+        <div class="tech-item">Deep Learning</div>
+        <div class="tech-item">Trajectory Planning</div>
+        <div class="tech-item">UAV Control</div>
+      </div>
     </section>
 
     <section>
       <h2>Key Contributions</h2>
-      <ul>
-        <li>Reliable obstacle detection without GNSS.</li>
-        <li>Real-time performance on edge hardware.</li>
-        <li>Improved safety in constrained environments.</li>
+      <ul class="contrib-list">
+        <li>Unified autonomy pipeline for aerial robots.</li>
+        <li>Robust mapping in GPS‑denied environments.</li>
+        <li>Adaptive obstacle avoidance using learned priors.</li>
+        <li>Mission‑level planning integrated with perception.</li>
       </ul>
     </section>
 
     <section>
       <h2>Publication</h2>
-      <p>Deep Learning Image Based Object Detection for UAV “See and Avoid” Navigation in GPS Denied Environments.</p>
+      <p><strong>AUROUAV: A Multi‑Sensor Autonomy Architecture for Aerial Robots</strong></p>
     </section>
 
     <section>
       <h2>Links</h2>
       <ul>
-        <li>Code: GitHub repository link</li>
-        <li>Paper: PDF / arXiv link</li>
-        <li>Demo: Video or slides</li>
+        <li><a href="https://github.com/em100/AUROMUS-AUTONOMY-SUITE/tree/main/AUROUAV" target="_blank">GitHub Repository</a></li>
+        <li><a href="../media/uav-demo.mp4" target="_blank">Demo Video</a></li>
       </ul>
     </section>
+
+    <section>
+      <h2>Citation</h2>
+      <pre class="bibtex-block">
+@article{musvaire2026aurouav,
+  title={AUROUAV: A Multi-Sensor Autonomy Architecture for Aerial Robots},
+  author={Musvaire, Emmanuel},
+  year={2026},
+  journal={MusvTech Autonomous Systems Lab},
+}
+      </pre>
+    </section>
+
+    <section class="back-link">
+      <a href="../index.html">← Back to Portfolio</a>
+    </section>
+
   </main>
 </body>
 </html>
