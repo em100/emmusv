@@ -2,52 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Project |GAN-Augmented Kalman Filter Pursuit</title>
+  <title>GAN‑Kalman Pursuit | MusvTech Autonomous Systems Lab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../styles.css">
 </head>
-<body>
-  <header>
-    <h1>GAN-Augmented Kalman Filter Pursuit</h1>
-    <p>Deep learning image-based object detection for autonomous UAV navigation.</p>
+
+<body class="project-page">
+
+  <header class="project-hero">
+    <img src="../images/gan.svg" class="project-hero-icon" alt="GAN Icon">
+    <h1>GAN‑Augmented Kalman Filter Pursuit</h1>
+    <p>Generative Priors for Robust Target Pursuit Under Sensor Degradation</p>
   </header>
 
-  <main>
+  <main class="project-content">
+
     <section>
       <h2>Overview</h2>
-      <p>This project develops a vision-based “see and avoid” system for UAVs operating in GPS-denied environments, combining deep learning object detection with optical flow and robust navigation strategies.</p>
+      <p>
+        This project integrates GAN‑generated priors into Kalman filter prediction to stabilize 
+        pursuit under noisy or degraded sensor conditions. The approach improves tracking continuity 
+        and motion estimation.
+      </p>
+    </section>
+
+    <section>
+      <h2>Architecture</h2>
+      <div class="architecture-box">
+        <ul>
+          <li>GAN‑based feature refinement</li>
+          <li>Kalman prediction with generative priors</li>
+          <li>Noise‑robust tracking</li>
+          <li>Adaptive pursuit control</li>
+        </ul>
+      </div>
     </section>
 
     <section>
       <h2>Technical Stack</h2>
-      <ul>
-        <li>Deep learning object detection (CNN/Transformer-based)</li>
-        <li>Optical flow and motion estimation</li>
-        <li>UAV control integration and safety constraints</li>
-      </ul>
+      <div class="tech-grid">
+        <div class="tech-item">GANs</div>
+        <div class="tech-item">Kalman Filter</div>
+        <div class="tech-item">Tracking</div>
+        <div class="tech-item">Motion Prediction</div>
+      </div>
     </section>
 
     <section>
       <h2>Key Contributions</h2>
-      <ul>
-        <li>Reliable obstacle detection without GNSS.</li>
-        <li>Real-time performance on edge hardware.</li>
-        <li>Improved safety in constrained environments.</li>
+      <ul class="contrib-list">
+        <li>GAN‑refined sensor inputs.</li>
+        <li>Improved pursuit stability.</li>
+        <li>Robust tracking under noise.</li>
       </ul>
     </section>
 
     <section>
       <h2>Publication</h2>
-      <p>Deep Learning Image Based Object Detection for UAV “See and Avoid” Navigation in GPS Denied Environments.</p>
+      <p><strong>Enhanced Drone Navigation and the Integration of GANs in Kalman Filter‑Based Target Pursuit</strong></p>
     </section>
 
     <section>
       <h2>Links</h2>
       <ul>
-        <li>Code: GitHub repository link</li>
-        <li>Paper: PDF / arXiv link</li>
-        <li>Demo: Video or slides</li>
+        <li><a href="https://github.com/em100/AUROMUS-AUTONOMY-SUITE/tree/main/GAN-KALMAN" target="_blank">GitHub Repository</a></li>
       </ul>
     </section>
+
+    <section>
+      <h2>Citation</h2>
+      <pre class="bibtex-block">
+@article{musvaire2026gankalman,
+  title={Enhanced Drone Navigation and the Integration of GANs in Kalman Filter-Based Target Pursuit},
+  author={Musvaire, Emmanuel},
+  year={2026},
+  journal={MusvTech Autonomous Systems Lab},
+}
+      </pre>
+    </section>
+
+    <section class="back-link">
+      <a href="../index.html">← Back to Portfolio</a>
+    </section>
+
   </main>
 </body>
 </html>
