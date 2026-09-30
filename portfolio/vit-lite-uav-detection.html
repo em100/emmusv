@@ -2,52 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Project | Lightweight Vision Transformer</title>
+  <title>ViT‑Lite UAV Detection | MusvTech Autonomous Systems Lab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../styles.css">
 </head>
-<body>
-  <header>
-    <h1>Lightweight Vision Transformer for UAV Detection </h1>
-    <p>Deep learning image-based object detection for autonomous UAV navigation.</p>
+
+<body class="project-page">
+
+  <header class="project-hero">
+    <img src="../images/vit.svg" class="project-hero-icon" alt="ViT Icon">
+    <h1>Lightweight Vision Transformer (ViT‑Lite)</h1>
+    <p>Optimized Transformer‑Based UAV Detection for GNSS‑Denied Environments</p>
   </header>
 
-  <main>
+  <main class="project-content">
+
     <section>
       <h2>Overview</h2>
-      <p>This project develops a vision-based “see and avoid” system for UAVs operating in GPS-denied environments, combining deep learning object detection with optical flow and robust navigation strategies.</p>
+      <p>
+        ViT‑Lite is a compact Vision Transformer architecture optimized for UAV object detection 
+        under GNSS‑denied conditions. It achieves high accuracy with low computational cost, 
+        enabling deployment on edge UAV hardware.
+      </p>
+    </section>
+
+    <section>
+      <h2>Architecture</h2>
+      <div class="architecture-box">
+        <ul>
+          <li>Patch embedding</li>
+          <li>Lightweight multi‑head attention</li>
+          <li>Reduced‑depth transformer blocks</li>
+          <li>Edge‑optimized inference</li>
+        </ul>
+      </div>
     </section>
 
     <section>
       <h2>Technical Stack</h2>
-      <ul>
-        <li>Deep learning object detection (CNN/Transformer-based)</li>
-        <li>Optical flow and motion estimation</li>
-        <li>UAV control integration and safety constraints</li>
-      </ul>
+      <div class="tech-grid">
+        <div class="tech-item">Vision Transformer</div>
+        <div class="tech-item">Edge Deployment</div>
+        <div class="tech-item">UAV Perception</div>
+        <div class="tech-item">GNSS‑Denied Navigation</div>
+      </div>
     </section>
 
     <section>
       <h2>Key Contributions</h2>
-      <ul>
-        <li>Reliable obstacle detection without GNSS.</li>
-        <li>Real-time performance on edge hardware.</li>
-        <li>Improved safety in constrained environments.</li>
+      <ul class="contrib-list">
+        <li>Compact ViT architecture for UAVs.</li>
+        <li>High accuracy with low compute.</li>
+        <li>Robust detection in degraded environments.</li>
       </ul>
     </section>
 
     <section>
       <h2>Publication</h2>
-      <p>Deep Learning Image Based Object Detection for UAV “See and Avoid” Navigation in GPS Denied Environments.</p>
+      <p><strong>A Lightweight Vision Transformer for Robust UAV Object Detection in GNSS‑Denied Environments</strong></p>
     </section>
 
     <section>
       <h2>Links</h2>
       <ul>
-        <li>Code: GitHub repository link</li>
-        <li>Paper: PDF / arXiv link</li>
-        <li>Demo: Video or slides</li>
+        <li><a href="https://github.com/em100/AUROMUS-AUTONOMY-SUITE/tree/main/VIT-LITE" target="_blank">GitHub Repository</a></li>
       </ul>
     </section>
+
+    <section>
+      <h2>Citation</h2>
+      <pre class="bibtex-block">
+@article{musvaire2026vitlite,
+  title={A Lightweight Vision Transformer for Robust UAV Object Detection in GNSS-Denied Environments},
+  author={Musvaire, Emmanuel},
+  year={2026},
+  journal={MusvTech Autonomous Systems Lab},
+}
+      </pre>
+    </section>
+
+    <section class="back-link">
+      <a href="../index.html">← Back to Portfolio</a>
+    </section>
+
   </main>
 </body>
 </html>
