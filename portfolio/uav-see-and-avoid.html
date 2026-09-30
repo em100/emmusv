@@ -2,52 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Project | UAV “See and Avoid” Navigation</title>
+  <title>UAV See‑and‑Avoid | MusvTech Autonomous Systems Lab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../styles.css">
 </head>
-<body>
-  <header>
-    <h1>UAV “See and Avoid” Navigation in GPS-Denied Environments</h1>
-    <p>Deep learning image-based object detection for autonomous UAV navigation.</p>
+
+<body class="project-page">
+
+  <header class="project-hero">
+    <img src="../images/uav.svg" class="project-hero-icon" alt="UAV Icon">
+    <h1>UAV “See and Avoid” Navigation</h1>
+    <p>Vision‑Based Obstacle Detection for GPS‑Denied UAV Flight</p>
   </header>
 
-  <main>
+  <main class="project-content">
+
     <section>
       <h2>Overview</h2>
-      <p>This project develops a vision-based “see and avoid” system for UAVs operating in GPS-denied environments, combining deep learning object detection with optical flow and robust navigation strategies.</p>
+      <p>
+        This project develops a vision‑based obstacle detection system enabling UAVs to navigate safely 
+        without GNSS. The pipeline integrates deep learning object detection, optical flow, and 
+        motion‑aware navigation strategies.
+      </p>
+    </section>
+
+    <section>
+      <h2>Pipeline Architecture</h2>
+      <div class="architecture-box">
+        <ul>
+          <li>Real‑time object detection</li>
+          <li>Optical flow motion estimation</li>
+          <li>Depth inference from monocular cues</li>
+          <li>Collision prediction</li>
+          <li>Reactive avoidance control</li>
+        </ul>
+      </div>
     </section>
 
     <section>
       <h2>Technical Stack</h2>
-      <ul>
-        <li>Deep learning object detection (CNN/Transformer-based)</li>
-        <li>Optical flow and motion estimation</li>
-        <li>UAV control integration and safety constraints</li>
-      </ul>
+      <div class="tech-grid">
+        <div class="tech-item">CNN / ViT</div>
+        <div class="tech-item">Optical Flow</div>
+        <div class="tech-item">Motion Prediction</div>
+        <div class="tech-item">UAV Control</div>
+      </div>
     </section>
 
     <section>
       <h2>Key Contributions</h2>
-      <ul>
+      <ul class="contrib-list">
         <li>Reliable obstacle detection without GNSS.</li>
-        <li>Real-time performance on edge hardware.</li>
+        <li>Real‑time performance on embedded hardware.</li>
         <li>Improved safety in constrained environments.</li>
       </ul>
     </section>
 
     <section>
       <h2>Publication</h2>
-      <p>Deep Learning Image Based Object Detection for UAV “See and Avoid” Navigation in GPS Denied Environments.</p>
+      <p><strong>Deep Learning Image‑Based Object Detection for UAV “See and Avoid” Navigation in GPS‑Denied Environments</strong></p>
     </section>
 
     <section>
       <h2>Links</h2>
       <ul>
-        <li>Code: GitHub repository link</li>
-        <li>Paper: PDF / arXiv link</li>
-        <li>Demo: Video or slides</li>
+        <li><a href="https://github.com/em100/AUROMUS-AUTONOMY-SUITE/tree/main/UAV-SEE-AND-AVOID" target="_blank">GitHub Repository</a></li>
+        <li><a href="../media/uav-demo.mp4" target="_blank">Demo Video</a></li>
       </ul>
     </section>
+
+    <section>
+      <h2>Citation</h2>
+      <pre class="bibtex-block">
+@article{musvaire2026seeavoid,
+  title={Deep Learning Image-Based Object Detection for UAV “See and Avoid” Navigation in GPS-Denied Environments},
+  author={Musvaire, Emmanuel},
+  year={2026},
+  journal={MusvTech Autonomous Systems Lab},
+}
+      </pre>
+    </section>
+
+    <section class="back-link">
+      <a href="../index.html">← Back to Portfolio</a>
+    </section>
+
   </main>
 </body>
 </html>
