@@ -204,5 +204,26 @@ h2 {
 .back-link a:hover {
   color: #4da3ff;
 }
+/* Fix faint text in architecture + tech boxes */
+.architecture-box,
+.tech-grid,
+.tech-item {
+  color: #111 !important;     /* strong dark text */
+}
+
+.architecture-box ul li {
+  color: #111 !important;
+}
+
+.tech-item {
+  background: #f0f0f0;        /* lighter background for contrast */
+  color: #111 !important;
+}
+.dark-mode .architecture-box,
+.dark-mode .tech-grid,
+.dark-mode .tech-item {
+  background: #2a2a2a !important;
+  color: #fff !important;
+}
 
 
