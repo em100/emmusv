@@ -90,7 +90,7 @@ AUROUAV/
 │       ├── mpc_controller.cpp
 │       ├── bayesian_rl_prior.cpp
 │       └── local_planner_node.cpp
-│AURORA-ADAS/safety/
+│AUROUAV/safety/
 ├── safety_monitor/
 │   ├── safety_node.cpp
 │   ├── risk_fusion.cpp
