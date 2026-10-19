@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>global_mapper</name>
+  <version>0.0.1</version>
+  <description>Global voxel + semantic mapper for AURORA-ADAS</description>
+
+  <maintainer email="emmanuel@example.com">Emmanuel</maintainer>
+  <license>MIT</license>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>OpenCV</depend>
+
+</package>

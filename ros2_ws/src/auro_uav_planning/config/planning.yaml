@@ -1,0 +1,9 @@
+global_planner:
+  algorithm: astar
+
+local_planner:
+  update_rate: 20.0
+
+mpc:
+  horizon: 20
+  dt: 0.1

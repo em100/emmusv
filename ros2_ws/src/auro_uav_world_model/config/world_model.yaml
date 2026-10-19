@@ -1,0 +1,11 @@
+vit_encoder:
+  latent_dim: 512
+
+latent_dynamics:
+  horizon: 20
+
+risk_decoder:
+  risk_threshold: 0.7
+
+free_space_predictor:
+  resolution: 0.10

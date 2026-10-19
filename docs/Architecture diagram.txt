@@ -1,0 +1,36 @@
+Architecture diagram
+
+Camera + IMU
+      │
+      ▼
+   VIO Layer
+      │
+      ▼
+ Feature Tracking
+      │
+      ▼
+ Visual Odometry
+      │
+      ▼
+  Loop Closure
+      │
+      ▼
+  Pose Graph
+      │
+      ▼
+ Localization
+      │
+      ▼
+ Semantic Mapping
+      │
+      ▼
+ Global Planner
+      │
+      ▼
+ Local Planner
+      │
+      ▼
+ MPC Controller
+      │
+      ▼
+ PX4 Control

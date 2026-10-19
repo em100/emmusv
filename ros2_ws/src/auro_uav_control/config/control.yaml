@@ -1,0 +1,8 @@
+px4:
+  connection: udp://127.0.0.1:14540
+
+controller:
+  rate_hz: 50
+
+offboard:
+  auto_arm: true

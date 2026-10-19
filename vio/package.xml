@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package format="3">
+
+  <name>auro_uav_vio</name>
+  <version>0.1.0</version>
+
+  <description>
+    Visual-Inertial Odometry module for AUROUAV.
+    Provides IMU preintegration, visual odometry,
+    and sensor fusion components.
+  </description>
+
+  <maintainer email="carrywin100@yahoo.com">
+    Emmanuel Musvaire
+  </maintainer>
+
+  <license>MIT</license>
+
+  <!-- Build -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <!-- Computer Vision -->
+  <depend>cv_bridge</depend>
+
+  <!-- Message Transport -->
+  <depend>image_transport</depend>
+
+  <!-- Runtime -->
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- Testing -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>

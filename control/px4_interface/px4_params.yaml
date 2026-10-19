@@ -1,0 +1,12 @@
+px4_controller:
+  ros__parameters:
+    max_forward_speed: 1.0
+    max_yaw_rate: 1.2
+    collision_stop_threshold: 0.9
+    alpha: 0.3
+
+mavlink_bridge:
+  ros__parameters:
+    offboard_mode: true
+    auto_arm: true
+    mavlink_rate: 50

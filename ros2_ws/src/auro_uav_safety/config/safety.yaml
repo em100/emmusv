@@ -1,0 +1,11 @@
+risk:
+  collision_threshold: 0.75
+  emergency_threshold: 0.90
+
+failsafe:
+  emergency_land: true
+  return_to_home: true
+  hover_on_comm_loss: true
+
+safety_supervisor:
+  update_rate_hz: 20
