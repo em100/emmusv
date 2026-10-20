@@ -488,7 +488,7 @@ GitHub:
 <a href="https://github.com/em100/emmusv.git">https://github.com/em100/emmusv.git/</a>
 </p>
 <p>
-MY GitHub Website:
+My GitHub Website:
 <a href=" https://em100.github.io/emmusv">https://em100.github.io/emmusv</a>
 </p>
 <p>
