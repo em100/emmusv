@@ -1,12 +1,2 @@
-AUROUAV
-ROS 2 autonomy stack for GNSS-denied UAV navigation featuring:
 
-Visual-Inertial Odometry (VIO)
-Feature-Based SLAM
-Loop Closure Detection
-Pose Graph Optimization
-Semantic Mapping
-MPC Planning
-PX4 Integration Framework
-Safety Monitoring
-Predictive World Models
+<img width="3344" height="2268" alt="image" src="https://github.com/user-attachments/assets/c77e14af-895f-4416-92fa-537847f71048" />
