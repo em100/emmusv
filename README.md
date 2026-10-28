@@ -359,7 +359,30 @@ localization.cpp
 
 </ul>
 
+<h1>Technical Report & Deployment Evidence</h1>
 
+<p>
+The complete AUROUAV development process, architecture,
+deployment validation, and ROS 2 integration milestones are documented
+in the technical report below.
+</p>
+
+<p>
+<a href="https://github.com/em100/emmusv/blob/main/docs/AUROUAV%20ROS%202%20Deployment%20Milestone.pdf">
+📄 AUROUAV ROS 2 Deployment Milestone Report
+</a>
+</p>
+
+<ul>
+<li>ROS 2 Jazzy Deployment</li>
+<li>Visual-Inertial Odometry (VIO)</li>
+<li>SLAM Architecture</li>
+<li>Mapping Framework</li>
+<li>Planning and Control Architecture</li>
+<li>Safety Monitoring</li>
+<li>World Model Integration</li>
+<li>Full-System Bringup Validation</li>
+</ul>
 <h1>Build</h1>
 
 <p>
